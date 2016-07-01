@@ -13,6 +13,11 @@ Body:
 }
 ```
 
+You will obtain the Person entity in the response body along with a UUID as the `personId`
+
+### Retrieving a Person ###
+`GET /persons/{personId}`
+
 
 ## Creating the backing table ##
 ```javascript
