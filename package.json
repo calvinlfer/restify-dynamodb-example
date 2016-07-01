@@ -1,0 +1,21 @@
+{
+  "name": "lean-restify",
+  "version": "1.0.0",
+  "description": "An example project using Restify and DynamoDB",
+  "main": "main.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "dynamodb",
+    "restify",
+    "node"
+  ],
+  "author": "",
+  "license": "MIT",
+  "dependencies": {
+    "aws-sdk": "^2.4.4",
+    "restify": "^4.1.1",
+    "uuid": "^2.0.2"
+  }
+}
