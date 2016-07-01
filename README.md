@@ -1,3 +1,19 @@
+## Interactions ##
+### Creating a Person Entity ###
+`POST localhost:8080/persons`
+
+Body:
+
+```json
+{
+  "firstName": "Calvin",
+  "lastName": "Fer",
+  "studentId": "XYZ",
+  "gender": "Male"
+}
+```
+
+
 ## Creating the backing table ##
 ```javascript
 var params = {
